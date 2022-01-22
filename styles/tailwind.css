@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 h2 h3 {
+    @apply font-sans;
+}
+
+p {
+    @apply text-center text-3xl font-light leading-relaxed my-5;
+}
