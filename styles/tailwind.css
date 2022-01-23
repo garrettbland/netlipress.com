@@ -6,6 +6,10 @@ h1 h2 h3 {
     @apply font-sans;
 }
 
+section {
+    @apply py-24;
+}
+
 p {
-    @apply text-center text-3xl font-light leading-relaxed my-5;
+    @apply text-center text-3xl font-light leading-relaxed my-5 text-[#545454] max-w-xl mx-auto;
 }
